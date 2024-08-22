@@ -1,0 +1,54 @@
+.logo:hover {
+  cursor: pointer;
+}
+.search-input {
+  width: 300px;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
+.icon:hover {
+  background-color: red;
+}
+.dropdown_class {
+  /* width: 120px; */
+  padding-left: 10px;
+}
+
+/*  for the electronics category  dropdown*/
+
+/*  media query */
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%;
+  }
+
+  .navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+  }
+
+  .navbar-collapse {
+    justify-content: center;
+  }
+
+  .search-input {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Adjust position of user avatar dropdown */
+.dropdown_class {
+  /* width: 120px; */
+  /* padding-left: 10px; */
+}

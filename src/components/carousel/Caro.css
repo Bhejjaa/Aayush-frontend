@@ -1,0 +1,13 @@
+.carousel_head {
+  width: 100%;
+  margin-top: 80px;
+  /* margin-left: -20px; */
+  /* padding: 10px 10px; */
+}
+
+/* media query */
+@media (max-width: 768px) {
+  .carousel_head {
+    margin-left: 0px;
+  }
+}
